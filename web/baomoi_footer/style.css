@@ -1,0 +1,26 @@
+#navbar {
+    width: 100vw;
+    height: 40px;
+    background-color: aqua;
+    font-size: 30px;
+    text-align: center;
+}
+
+#app {
+    display: flex;
+}
+
+#sidebar {
+    width: 300px;
+}
+
+#sidebar .logo {
+    width: 100%;
+}
+
+#container {
+    flex: 1;
+    background-color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+}

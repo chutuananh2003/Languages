@@ -1,0 +1,4 @@
+ID	Name	GPA
+2671	Chu Ba Tuan Anh	3.6
+2003	Nguyen Thi Hong Hanh	3.5
+2000	Nguyen Van A	2.75

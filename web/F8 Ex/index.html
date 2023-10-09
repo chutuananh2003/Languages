@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Link Icon Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+
+        <div id="navbar">
+            <div class="navbar_column">
+                <ul class="navbar_column_list">
+                    <li class="navbar_column_item">
+                        <i class="fa-solid fa-language navbar_column_item_icon"></i>
+                        <a href="#" class="navbar_column_item_title">Languages</a>
+                    </li>
+                    <li class="navbar_column_item">
+                        <a href="#" class="navbar_column_item_title">EN</a>
+                    </li>
+                    <li class="navbar_column_item">
+                        <a href="#" class="navbar_column_item_title">ES</a>
+                    </li>
+                    <li class="navbar_column_item">
+                        <i class="fa-solid fa-share navbar_column_item_icon"></i>
+                        <a href="#" class="navbar_column_item_title">Our Social</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar_column">
+                <ul class="navbar_column_list">
+                    <li class="navbar_column_item">
+                        <i class="fa-regular fa-star navbar_column_item_icon"></i>
+                        <a href="#" class="navbar_column_item_title">Tour Packages</a>
+                    </li>
+                    <li class="navbar_column_item">
+                        <i class="fa-solid fa-location-dot navbar_column_item_icon"></i>
+                        <a href="#" class="navbar_column_item_title">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="intro">
+            <div id="intro_info">
+                <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/12/logo-color-2.png" alt="" id="logo">
+                <h3 class="intro_title">Search</h3>
+                <h4 class="intro_desc">Find your next holiday on 72 cool packages !</h4>
+                <h3 class="intro_title">Keyword</h3>
+                <input type="text" class="intro_input_keyword" placeholder="Insert keyword">
+                <h3 class="intro_title">Destination</h3>
+                <select name="intro_select" id="intro_select">
+                    <option value="All Destination">All Destination</option>
+                    <option value="Europe">Europe</option>
+                    <option value="- Italy">- Italy</option>
+                    <option value="- Netherland">- Netherland</option>
+                    <option value="Asia">Asia</option>
+                    <option value="- Thailandia">- Thailandia</option>
+                    <option value="United States">United States</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+                <button class="search_btn">Search now</button>
+            </div>
+            <div id="intro_img">
+                <span class="intro_img_desc">Luxury <span>Travel</span></span>
+            </div>
+        </div>
+
+        <div id="package">
+            <h3 class="package_title">The best choise</h3>
+            <h4 class="package_sub">OUR PACKAGES</h4>
+            <div class="package_list">
+                <div class="package_item">
+                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/03/package-02-1024x640.jpg" alt="" class="package_item_img">
+                    <div class="package_item_box">
+                        <h3 class="package_item_name">Wooden ship</h3>
+                        <div class="package_item_location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Europe</span>
+                        </div>
+                        <div class="package_item_price">
+                            <ul>
+                                <li><a href="#">Cultural</a></li>
+                                <li><a href="#">Relax</a></li>
+                            </ul>
+                            <span>700 $</span>
+                        </div>
+                        <p class="package_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec
+                            dapibus dictum scelerisque.</p>
+                        <button class="package_item_btn">Details</button>
+                    </div>
+                </div>
+                <div class="package_item">
+                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/03/package-003-1024x640.jpg"
+                        alt="" class="package_item_img">
+                    <div class="package_item_box">
+                        <h3 class="package_item_name">Optimist</h3>
+                        <div class="package_item_location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Asia</span>
+                        </div>
+                        <div class="package_item_price">
+                            <ul>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Cultural</a></li>
+                            </ul>
+                            <span>500 $</span>
+                        </div>
+                        <p class="package_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante.
+                            Donec
+                            dapibus dictum scelerisque.</p>
+                        <button class="package_item_btn">Details</button>
+                    </div>
+                </div>
+                <div class="package_item">
+                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/03/package-01-1024x640.jpg"
+                        alt="" class="package_item_img">
+                    <div class="package_item_box">
+                        <h3 class="package_item_name">Sailing ship</h3>
+                        <div class="package_item_location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Oceania</span>
+                        </div>
+                        <div class="package_item_price">
+                            <ul>
+                                <li><a href="#">Sport</a></li>
+                                <li><a href="#">Relax</a></li>
+                            </ul>
+                            <span>400 $</span>
+                        </div>
+                        <p class="package_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante.
+                            Donec
+                            dapibus dictum scelerisque.</p>
+                        <button class="package_item_btn">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="more">
+            <div class="more_list">
+                <div class="more_item" style="background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/03/package-02-150x150.jpg);"><button class="more_item_price">700 $</button></div>
+                <div class="more_item" style="background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/03/package-003-150x150.jpg);"><button class="more_item_price">700 $</button></div>
+                <div class="more_item" style="background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/03/package-01-150x150.jpg);"><button class="more_item_price">700 $</button></div>
+                <div class="more_item" style="background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/03/package-04-150x150.jpg);"><button class="more_item_price">700 $</button></div>
+                <div class="more_item" style="background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/03/package-05-150x150.jpg);"><button class="more_item_price">700 $</button></div>
+            </div>
+            <div class="more_info">
+                <h3 class="more_info_title">THE BEST CHOISE</h3>
+                <h4 class="more_info_subtitle">The Best Of Italy</h4>
+                <p class="more_info_desc">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies. Mauris ac
+                vulputate augue. Ut at bibendum elit. Morbi augue leo,</p>
+                <div class="more_view">
+                    <div class="more_view_packages">1200 Packages</div>
+                    <div class="more_view_packages">30 Tours</div>
+                    <button class="more_view_btn">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="blog">
+            <h3 class="blog_title">FROM THE BLOG</h3>
+            <h4 class="blog_sub">ARTICLES & NEWS</h4>
+            <div class="blog_list">
+                <div class="blog_list_row">
+                    <div class="blog_list_item">
+                        <div class="blog_list_item_img"></div>
+                        <div class="blog_list_item_info">
+                            <h3 class="blog_list_item_info_title">OUR NEWS</h3>
+                            <h4 class="blog_list_item_info_sub">Boat Excursions</h4>
+                            <p class="blog_list_item_info_desc">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                            <button class="blog_list_item_info_btn">READ MORE</button>
+                        </div>
+                    </div>
+                    <div class="blog_list_item">
+                        <div class="blog_list_item_img"></div>
+                        <div class="blog_list_item_info">
+                            <h3 class="blog_list_item_info_title">OUR NEWS</h3>
+                            <h4 class="blog_list_item_info_sub">Boat Excursions</h4>
+                            <p class="blog_list_item_info_desc">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna
+                                et. Quisque euismod orci ut et lobortis.</p>
+                            <button class="blog_list_item_info_btn">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_list_row">
+                    <div class="blog_list_item">
+                        <div class="blog_list_item_info">
+                            <h3 class="blog_list_item_info_title">OUR NEWS</h3>
+                            <h4 class="blog_list_item_info_sub">Boat Excursions</h4>
+                            <p class="blog_list_item_info_desc">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies
+                                magna et. Quisque euismod orci ut et lobortis.</p>
+                            <button class="blog_list_item_info_btn">READ MORE</button>
+                        </div>
+                        <div class="blog_list_item_img"></div>
+                    </div>
+                    <div class="blog_list_item">
+                        <div class="blog_list_item_info">
+                            <h3 class="blog_list_item_info_title">OUR NEWS</h3>
+                            <h4 class="blog_list_item_info_sub">Boat Excursions</h4>
+                            <p class="blog_list_item_info_desc">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies
+                                magna
+                                et. Quisque euismod orci ut et lobortis.</p>
+                            <button class="blog_list_item_info_btn">READ MORE</button>
+                        </div>
+                        <div class="blog_list_item_img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
